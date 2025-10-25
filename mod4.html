@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Sederhana</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Web Sederhana</h1>
+    <nav>
+      <ul>
+        <li><a href="#" data-target="home">Beranda</a></li>
+        <li><a href="#" data-target="artikel">Artikel</a></li>
+        <li><a href="#" data-target="kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hidden">
+      <h2>Beranda</h2>
+      <p>Halo! Ini adalah halaman beranda dari web sederhana ini. Semua dibuat dengan HTML, CSS, dan JavaScript.</p>
+    </section>
+
+    <section id="artikel" class="hidden">
+      <h2>Artikel</h2>
+      <article>
+      <h3>Belajar Web Development</h3>
+        <p>HTML digunakan untuk struktur halaman, CSS untuk tampilan, dan JavaScript untuk menambahkan interaksi pengguna.</p>
+      </article>
+    </section>
+
+    <section id="kontak" class="hidden">
+      <h2>Kontak Kami</h2>
+      <form id="contactForm">
+        <label>Nama:</label>
+        <input type="text" id="nama" placeholder="Masukkan nama" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Masukkan email" required>
+
+        <label>Pesan:</label>
+        <textarea id="pesan" placeholder="Tulis pesan..." required></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 Web Sederhana oleh Mahasiswi D3 Teknologi Komputer</p>
+  </footer>
+</body>
+</html>
